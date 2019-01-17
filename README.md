@@ -46,3 +46,7 @@ This is a phonegap/cordova application that uses laravel-mix to build a standalo
 ### v. 0.0.2
 - Added assets folder.
 - Added support to bootstrap.
+
+### v. 0.0.3
+- Updated bootstrap to v4.
+- Added support to axios.

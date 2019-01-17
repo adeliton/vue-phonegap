@@ -4,7 +4,7 @@
 If you want to use VueJS as SPA, use another repository. There are many in GitHub... or you can adapt this one. Feel free to use as you want.
 
 ## Description
-This is a phonegap/cordova application that uses laravel-mix to build a standalone app.js to use VueJS, components and native mobile functions.
+This is a phonegap/cordova application that uses laravel-mix to build a standalone app.js/app.css to use VueJS, components, native mobile functions and bootstrap.
 
 ## How to use
 
@@ -35,5 +35,14 @@ This is a phonegap/cordova application that uses laravel-mix to build a standalo
 ## Instructions
 
 - Every vue component must be in ./components folder.
-- Don't change anything in ./www/js/app.js. Every change in ./app.js will be packed to ./www/js/app.js by laravel-mix.
+- Don't change anything in ./www/js/app.js and ./www/css/app.css. Every change in ./app.js and ./assets/sass/app.css will be packed to ./www/ folder by laravel-mix.
 - Feel free to use native functions in any Vue stage, since Vue is initialized only after deviceready.
+
+## Changelog
+
+### v. 0.0.1
+- First release.
+
+### v. 0.0.2
+- Added assets folder.
+- Added support to bootstrap.

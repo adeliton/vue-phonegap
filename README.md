@@ -1,7 +1,7 @@
 # Vue Phonegap/Cordova
 
 ## Note
-If you want to use VueJS as SPA, use another repository. There are many in GitHub... or you can adapt this one. Feel free to use as you want.
+This is not a ready to use VueJS as SPA, but you can adapt this one. Feel free to use as you want.
 
 ## Description
 This is a phonegap/cordova application that uses laravel-mix to build a standalone app.js/app.css to use VueJS, components, native mobile functions and bootstrap.
